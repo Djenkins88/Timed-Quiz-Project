@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+p {
+    font-size: x-large;
+}
+
+
+.start-container{
+    width: 70vw;
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+
+#btn-start {
+    margin-top: 50px;
+    width: 150px;
+    height: 200px;
+    background-color : blue;
+    color: white;
+    font-size: large;
+    border-radius: 4px;
+    padding: 10px;
+   
+}
+
+#btn-start:hover{
+    cursor: pointer;
+}
+
+
+.heading {
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+body {
+    background-color: brown;
+}
+
+.buttons {
+    width: 100%;
+    height:200px;
+    margin-top: 50px;
+    
+}
+
+.btns {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    
+}
+
+
+
+
+
+#btn0 {
+    width: 25%;
+    height:50px;
+    color:white;
+    background-color: darkblue;
+    font-size: x-large;
+}
+
+#btn1 {
+    width: 25%;
+    height:50px;
+    color:white;
+    background-color: darkblue;
+    font-size: x-large;
+}
+
+#btn2 {
+    width: 25%;
+    height:50px;
+    color:white;
+    background-color: darkblue;
+    font-size: x-large;
+}
+
+#btn3 {
+    width: 25%;
+    height:50px;
+    color:white;
+    background-color: darkblue;
+    font-size: x-large;
+}
+
+

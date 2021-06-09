@@ -1,21 +1,53 @@
-<!DOCTYPE html>    
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Quiz</title>
+</head>
+<!--  -->
+</body>
+<div class='time'> 
+    <h2>Timer: <span id="time-left">75</span></h2>
+    <h2>score <span id="score">0</span></h2>
+</div>
+
+<div class="heading">
+    <h1>Timed Quiz</h1>
+</div>
+
+<div class="start-container">
+    <p>This is a timed quiz answer the questions before the timer runs out and for every incorrect answer five seconds
+        is deducted from the timer.</p>
+        <button id="btn-start">Start Test</button>
+    </div>
     
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="styleheet" href="style.css">
-        <title>website</title>
-    </head>
 
-    </body>
-    <button id="btn-start">Start Test</button>
-    <h2 id="timer-text">60</h2>
-    <h1 class="Timed Quiz">Timed Quiz</h1>
+<a href="/highscores.html" id="highscore-btn"
+class="btn">High Score</a>
 
-    
 
-    <script src="script.js"></script>
-    </body>
+<div id="quiz-container">
+    <h3 id="Quiz questions"></h3>
+
+    <div class="buttons">
+        <div class="btns">
+            <button id="btn0">choice A</button>
+            <button id="btn1">choice B</button>
+            <button id="btn2">choice C</button>
+            <button id="btn3">choice D</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+<script src="question.js"></script>
+</body>
 
 </html>
