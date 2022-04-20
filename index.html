@@ -5,42 +5,57 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Quiz</title>
 </head>
 <!--  -->
 </body>
-<div class='time'> 
-    <h2>Timer: <span id="time-left">75</span></h2>
-    <h2>score <span id="score">0</span></h2>
-</div>
-
-<div class="heading">
-    <h1>Timed Quiz</h1>
-</div>
-
-<div class="start-container">
-    <p>This is a timed quiz answer the questions before the timer runs out and for every incorrect answer five seconds
-        is deducted from the timer.</p>
-        <button id="btn-start">Start Test</button>
+<div class="Start-btn"><button>Start Quiz</button></div>
+<div class="info-box">
+    <div class="info-title">
+        <span>Quiz Guideline</span>
     </div>
+    <div class="info-list">
+        <div class="info"> </div>
+        <div class="info">1. You will have only <span>10 seconds</span> per question.</div>
+        <div class="info">2. Once you select your answer, you cant reselect.</div>
+        <div class="info">3. You cant exit from the Quiz while you're playing.</div>
+        <div class="info">4. You will get points for correct answers.</div>
+    </div>
+    <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+    </div>
+</div>
+
+<div class="quiz-box">
+    <header>
+        <div class="title">Awesome Quiz Application</div>
+        <div class="timer">
+            <div class="time-text">Time Left</div>
+            <div class="timer-sec">15</div>
+        </div>
+    </header>
+    <section>
+        <div class="que-text">
+            <span>What does HTML stand for</span>
+        </div>
+        <div class="option-list">
+            <div class="option">
+                <span>Hyper Text Preprocessor</span>
+                <div class="icon tick"><i class="fa-solid fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>Hyper Text Markup Language</span>
+                <div class="icon cross"><i class="fa-solid fa-times"></i></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
     
 
-<a href="/highscores.html" id="highscore-btn"
-class="btn">High Score</a>
-
-
-<div id="quiz-container">
-    <h3 id="Quiz questions"></h3>
-
-    <div class="buttons">
-        <div class="btns">
-            <button id="btn0">choice A</button>
-            <button id="btn1">choice B</button>
-            <button id="btn2">choice C</button>
-            <button id="btn3">choice D</button>
-        </div>
-    </div>
-</div>
 
 
 
